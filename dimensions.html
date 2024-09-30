@@ -1,0 +1,56 @@
+<!--
+
+Dimensions
+-----------
+All element depends on root element dimensions
+if font size not mentioned in root, the default value is 16px
+
+EM NOT RECOMMENDED AND REM ONLY RECOMMENDED FOR GLOBAL CONSISTENCY
+EM Works on parent element size
+REM works on BODY element size
+
+percentage dimension depends on IMMEDIATE parent
+percentage dimensions are not recommended
+
+VW AND VH DEPENDS ON SCREEN DIMENSION (MOBILE/TB/LAPTOP/DESKTOP)
+
+pixels never are constants
+
+1. rem (relative em)
+2. em
+3. %
+4. vw (viweport width) & vh (viewport height)
+5. px (pixel)
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dimensions.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <p class="c1">Balajee</p>
+    <p class="c2">KLU</p>
+    <div class="c3">
+        <p>Balajee</p>
+        <p class="c4"> Balajee </p>
+        <p class="c5"> Balajee </p>
+    </div>
+
+    <div class="percent_cls">
+        <p class="c6"> KLU </p>
+    </div>
+
+    <div class="vwvh">
+        <p> KLU </p>
+    </div>
+
+</body>
+
+</html>

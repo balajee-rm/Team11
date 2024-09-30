@@ -1,0 +1,31 @@
+.c1{
+    font-size: 2rem;
+}
+
+.c2{
+    font-size: 3rem;
+}
+.c3{
+    font-size: 2rem;
+}
+.c4{
+    font-size: 2em;
+}
+.c5{
+    font-size: 2rem;
+}
+.percent_cls{
+    width: 400px;
+    height: 250px;
+    border: 2px solid red;
+}
+
+.c6 {
+    width: 50%;
+    background-color: green;
+}
+
+.vwvh{
+    width: 50vw;
+    border: 2px solid red;
+}
